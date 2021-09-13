@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brands | AutoWorld</title>
+    <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/Brands/brands.css" />
+    <link rel="stylesheet" href="./css/header-footer-responsive.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="./css/Brands/brands-responsive.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script async src="./js/search.js"></script>
+    <script src="./js/live-chat.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="user-menu">
+        <ul>
+          <li>
+            <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-menu-wrapper">
+        <ul class="main-menu main-menu1">
+          <li><a href="./index.html">home</a></li>
+          <li><a href="#" class="active">brands</a></li>
+          <li><a href="#">about me</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="index.html" class="logo">
+          <img src="./images/AUTOWORLD.png" alt="" />
+        </a>
+      </div>
+      <div class="main-menu-wrapper">
+        <ul class="main-menu main-menu2">
+          <li><a href="#">services</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </div>
+      <div class="user-menu">
+        <ul>
+          <li>
+            <a href="#" class="search-button"><i class="bx bx-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="search">
+      <div class="search-input">
+        <input type="text" class="search-form" placeholder="Search..." />
+        <button class="search-btn">
+          <a href="#"><i class="bx bx-search"></i></a>
+        </button>
+        <div class="keyword"></div>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-top">
+          <nav>
+            <div class="breadcrumbs">
+              <div class="breadcrumb-item">
+                <a href="./index.html" class="breadcrumb-link">HOME</a>
+              </div>
+              <div class="breadcrumb-item">
+                <div class="breadcrumb-divider">
+                  <svg
+                    width="12px"
+                    height="12px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <polyline points="16,6 22,12 16,18"></polyline>
+                  </svg>
+                </div>
+              </div>
+              <div class="breadcrumb-item">
+                <a href="" class="breadcrumb-link select">BRANDS</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="hero-content">
+          <h1>Car Showroom</h1>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="torque-block">
+        <div class="block">
+          <div class="block-item">
+            <a href="#showroom-honda" class="showroom-logo">
+              <img
+                src="./images/ShowroomLogo/logo-honda.png"
+                alt="Honda-logo"
+              />
+            </a>
+          </div>
+          <div class="block-item">
+            <a href="#showroom-hyundai" class="showroom-logo">
+              <img
+                src="./images/ShowroomLogo/logo-hyundai.png"
+                alt="Hyundai-logo"
+              />
+            </a>
+          </div>
+          <div class="block-item">
+            <a href="#showroom-toyota" class="showroom-logo">
+              <img
+                src="./images/ShowroomLogo/logo-toyota-color_0.png"
+                alt="Toyota-logo"
+              />
+            </a>
+          </div>
+          <div class="block-item">
+            <a href="#showroom-audi" class="showroom-logo">
+              <img src="./images/ShowroomLogo/logo-audi.png" alt="Audi-logo" />
+            </a>
+          </div>
+          <div class="block-item">
+            <a href="#showroom-mazda" class="showroom-logo">
+              <img
+                src="./images/ShowroomLogo/logo-mazda-color_0.png"
+                alt="Mazda-logo"
+              />
+            </a>
+          </div>
+          <div class="block-item">
+            <a href="#showroom-porsche" class="showroom-logo">
+              <img
+                src="./images/ShowroomLogo/logo-porsche.png"
+                alt="Porsche-logo"
+              />
+            </a>
+          </div>
+          <div class="block-item">
+            <a href="#showroom-mercedes" class="showroom-logo">
+              <img
+                src="./images/ShowroomLogo/logo-mercedes-color.png"
+                alt="Mercedes-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="showroom-listing">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>New Models</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images//AUTOWORLD.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="new-models"></div>
+        </div>
+      </div>
+
+      <div class="showroom-listing" id="showroom-honda">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Honda</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-honda.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="honda"></div>
+        </div>
+      </div>
+      <div class="showroom-listing" id="showroom-hyundai">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Hyundai</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-hyundai.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="hyundai"></div>
+        </div>
+      </div>
+      <div class="showroom-listing" id="showroom-toyota">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Toyota</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-toyota-color_0.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="toyota"></div>
+        </div>
+      </div>
+      <div class="showroom-listing" id="showroom-audi">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Audi</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-audi.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="audi"></div>
+        </div>
+      </div>
+      <div class="showroom-listing" id="showroom-mazda">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Mazda</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-mazda-color_0.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="mazda"></div>
+        </div>
+      </div>
+      <div class="showroom-listing" id="showroom-porsche">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Porsche</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-porsche.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="porsche"></div>
+        </div>
+      </div>
+      <div class="showroom-listing" id="showroom-mercedes">
+        <div class="showroom-listing_group">
+          <div class="heading-sepatated">
+            <div class="heading-sepatated_item">
+              <h2>Mercedes</h2>
+            </div>
+            <div class="heading-sepatated_item">
+              <img src="./images/ShowroomLogo/logo-mercedes-color.png" alt="" />
+            </div>
+          </div>
+          <div class="showroom-listing_items" id="mercedes"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <div class="footer-main">
+          <div class="row">
+            <div class="col-2 footer-list-menu">
+              <h3>brands</h3>
+              <div class="list-menu-items">
+                <div class="list-menu-item">
+                  <a href=""><span>New Models</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Honda Models</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Toyota Models</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Suzuki Models</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-2 footer-list-menu">
+              <h3>services</h3>
+              <div class="list-menu-items">
+                <div class="list-menu-item">
+                  <a href=""><span>Warranty</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Insurance</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Finance</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-2 footer-list-menu">
+              <h3>About us</h3>
+              <div class="list-menu-items">
+                <div class="list-menu-item">
+                  <a href=""><span>Why AutoWorld?</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Terms of Use</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Our Story</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-logo">
+          <img src="./images/free Delivery.png" alt="" />
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-social">
+            <div class="row">
+              <a href=""><div class="social-item"><i class='bx bxl-facebook-square'></i></div></a>
+            <a href=""><div class="social-item"><i class='bx bxl-instagram'></i></div></a>
+            <a href=""><div class="social-item"><i class='bx bxl-twitter'></i></div></a>
+            <a href=""><div class="social-item"><i class='bx bxl-youtube'></i></div></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <span
+            >© 2021 <a href="">OpenRoad Auto Group</a>. All rights reserved.
+            <a href="">Privacy Policy</a>.</span
+          >
+        </div>
+      </div>
+    </footer>
+    <a href="#"
+      ><div class="scroll-to-top">
+        <i class="bx bxs-to-top"></i></div
+    ></a>
+    <script src="./js/brands.js"></script>
+    <script src="./js/header.js"></script>
+  </body>
+</html>
